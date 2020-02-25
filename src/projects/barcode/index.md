@@ -1,0 +1,4 @@
+---
+title: Barcode Check
+---
+<BarCode />
