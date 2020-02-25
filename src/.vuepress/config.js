@@ -10,8 +10,8 @@ module.exports = {
             {
                 text: 'Projects', 
                 items: [
-                    { text: 'Cognosant', link: '/projects/cognosant/' },
-                    { text: 'eSchool', link: '/projects/eschool/' },
+                    { text: 'Cognosant', link: '/cognosant/' },
+                    { text: 'eSchool', link: '/eschool/' },
                     { text: 'Barcode Scanner', link: '/projects/barcode/' }
                 ]          
             }
