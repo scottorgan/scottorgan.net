@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+html {
+    scroll-padding-top: 60px;
+}
+
+.profile > img {
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.social > ul {
+    margin: 25px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+.social > ul li {
+    margin: 40px 10px 0px 10px
+}
+.social > ul li a {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 40px;
+    color: white;
+    transition: 0.5s;
+}
+.social > ul li a:hover {
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.5);
+}
+.social > ul li a .bi {
+    font-size: 26px;
+    line-height: 40px;
+}
+.social > ul li a span {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-right: 2px solid rgba(255,255,255,0.15);
+}
+.social > ul li:nth-child(1) a {
+    background: #24292e;
+}
+.social > ul li:nth-child(2) a {
+    background: #007bb5;
+}

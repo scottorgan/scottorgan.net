@@ -1,0 +1,6 @@
+baseURL = 'http://scottorgan.net/'
+languageCode = 'en-us'
+title = 'ScottOrgan.net'
+
+[markup.goldmark.renderer]
+unsafe = true
